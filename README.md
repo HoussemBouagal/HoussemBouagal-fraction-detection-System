@@ -32,15 +32,16 @@ Install the required Python libraries with:
 ```bash
 pip install tensorflow pillow numpy
 
-🗂️ Project Structure:
+🗂️ Project Structure
 
 fracture_detection_app/
 ├── fracture_model.keras        # Pre-trained deep learning model
 ├── trauma.png                  # Application icon
 ├── main.py                     # Main application script
 └── README.md                   # Project documentation
+
 🚀 How to Run
-Ensure all the following files are in the same directory:
+1.Ensure all the following files are in the same directory:
 
 main.py
 
@@ -48,18 +49,18 @@ fracture_model.keras
 
 trauma.png
 
-Launch the application by running:
+2.Launch the application by running:
 python main.py
 
-Use the GUI to:
-
+3.Use the GUI to:
 📂 Load Image – Select an X-ray image from your system.
 
 🦴 View prediction and confidence score.
 
 👨‍💻 Click About to see developer information.
 
-👨‍💻 Developer
+👨‍💻 Developer:
+
 Name: Bouagal Houssem Eddine
 
 Field: Artificial Intelligence & User Interfaces
@@ -75,11 +76,8 @@ pyinstaller
 
 auto-py-to-exe
 
-🧊 Screenshot:
+🧊 Screenshot
 
-(screenshot.png)
-
-
-
+![App Screenshot](screenshot.png)
 
 
