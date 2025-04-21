@@ -88,6 +88,6 @@ python main.py
 
 ---
 
-🧊 Screenshot
+## 🧊 Screenshot
 
 ![App Screenshot](screenshot.png)
