@@ -76,8 +76,8 @@ pyinstaller
 
 auto-py-to-exe
 
-🧊 Screenshot
-
+🧊 Screenshot:
+<!-- If you want to add a screenshot later: -->
 ![App Screenshot](screenshot.png)
 
 
