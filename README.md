@@ -1,62 +1,85 @@
-🦴 Bone Fracture Detection – Tkinter + Deep Learning App
-<p align="center"> <img src="trauma.png" alt="App Icon" width="100"/> </p>
-📌 Overview
-This is a desktop GUI application built with Python and Tkinter to automatically detect bone fractures in X-ray images using a pre-trained deep learning model (TensorFlow/Keras).
-💡 Features
-🧠 Utilizes a trained Keras model to classify images as:
+# 🦴 Bone Fracture Detection – Tkinter + Deep Learning App
 
-Fractured
+<p align="center">
+  <img src="trauma.png" alt="App Icon" width="100"/>
+</p>
 
-Not Fractured
+---
 
-📷 Clean and user-friendly GUI to load and analyze X-ray images.
+## 📌 Overview
 
-📊 Displays prediction confidence.
+This is a desktop GUI application built with **Python** and **Tkinter** to automatically detect bone fractures in X-ray images using a pre-trained deep learning model (TensorFlow/Keras).
 
-🖼️ Shows the loaded image in the interface.
+---
 
-👨‍💻 "About" window with developer information.
+## 💡 Features
 
-🎨 Sleek modern UI with soft colors.
+- 🧠 Utilizes a trained **Keras** model to classify X-ray images as:
+  - **Fractured**
+  - **Not Fractured**
+- 📷 Clean and user-friendly **GUI** to load and analyze X-ray images.
+- 📊 Displays **prediction confidence** after analysis.
+- 🖼️ Shows the **loaded image** in the interface.
+- 👨‍💻 "About" window with **developer information**.
+- 🎨 Sleek and modern **UI** with soft, calming colors.
 
-🧪 Requirements
-Make sure the following Python libraries are installed:
+---
+
+## 🧪 Requirements
+
+Install the required Python libraries with:
+
+```bash
 pip install tensorflow pillow numpy
 
-🗂️ Project Structure
-📁 fracture_detection_app/
-├── fracture_model.keras        # Pre-trained model
-├── trauma.png                  # App icon
+🗂️ Project Structure:
+
+fracture_detection_app/
+├── fracture_model.keras        # Pre-trained deep learning model
+├── trauma.png                  # Application icon
 ├── main.py                     # Main application script
-└── README.md                   # This file
+└── README.md                   # Project documentation
+🚀 How to Run
+Ensure all the following files are in the same directory:
 
-🚀 How to Run:
-Make sure all files (main.py, fracture_model.keras, trauma.png) are in the same directory.
+main.py
 
-Run the app using:
+fracture_model.keras
+
+trauma.png
+
+Launch the application by running:
 python main.py
 
-Click 📂 Load Image to select an X-ray image.
+Use the GUI to:
 
-The app will display:
+📂 Load Image – Select an X-ray image from your system.
 
-The result: Fractured / Not Fractured
+🦴 View prediction and confidence score.
 
-Prediction confidence
-
-Click 👨‍💻 About to view developer info.
+👨‍💻 Click About to see developer information.
 
 👨‍💻 Developer
 Name: Bouagal Houssem Eddine
 
 Field: Artificial Intelligence & User Interfaces
 
-Language: Python (Tkinter + TensorFlow)
+Tech Stack: Python (Tkinter + TensorFlow)
 
-📌 Notes:
-
+📌 Notes
 ✅ The AI model was trained separately and loaded at runtime.
-📦 You can convert the project into an executable using pyinstaller or auto-py-to-exe.
+
+📦 To convert this app into a standalone executable, use:
+
+pyinstaller
+
+auto-py-to-exe
 
 🧊 Screenshot:
-![App Screenshot](screenshot.png)
+
+(screenshot.png)
+
+
+
+
+
