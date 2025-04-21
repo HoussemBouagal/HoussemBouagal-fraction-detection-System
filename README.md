@@ -88,10 +88,6 @@ python main.py
 
 ---
 
-## 🧊 Screenshot
+🧊 Screenshot
 
-> *Add a screenshot here later if needed:*
-
-```md
 ![App Screenshot](screenshot.png)
-```
